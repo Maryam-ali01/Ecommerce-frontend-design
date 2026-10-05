@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Brand | My Cart</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="container">
+    <span>Help Center</span>
+    <span>Track Order</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-main">
+    <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a href="index.html" class="logo">
+      <img src="assets/Layout/Brand/logo-colored.png" alt="Brand logo" />
+      Brand
+    </a>
+    <form class="search-bar" onsubmit="return false;">
+      <select>
+        <option>All category</option>
+        <option>Electronics</option>
+        <option>Clothing</option>
+        <option>Home &amp; Interior</option>
+      </select>
+      <input type="text" placeholder="Search products, suppliers..." />
+      <button type="submit">Search</button>
+    </form>
+    <div class="header-icons">
+      <a href="#"><span class="icon-emoji">&#128100;</span>Profile</a>
+      <a href="#"><span class="icon-emoji">&#128172;</span>Message</a>
+      <a href="#"><span class="icon-emoji">&#9825;</span>Orders</a>
+      <a href="cart.html"><span class="icon-emoji">&#128722;</span>My cart
+        <span class="badge cart-badge">3</span>
+      </a>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <div class="container">
+      <div class="nav-all-cat">&#9776; All category</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Hot offers</a></li>
+        <li><a href="category.html">Gift boxes</a></li>
+        <li><a href="category.html">Projects</a></li>
+        <li><a href="category.html">Menu item</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <div class="ship-to">
+        English, USD &nbsp;|&nbsp; Ship to
+        <img src="assets/Layout1/Image/flags/US@2x.png" alt="US flag" />
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-nav-overlay"></div>
+<nav class="mobile-nav">
+  <button class="close-btn">&times; Close</button>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="category.html">Hot offers</a></li>
+    <li><a href="category.html">Gift boxes</a></li>
+    <li><a href="category.html">Categories</a></li>
+    <li><a href="product.html">Product details</a></li>
+    <li><a href="cart.html">My cart</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <h1 class="cart-title" data-cart-title>My cart (3)</h1>
+
+  <div class="cart-layout">
+    <div>
+      <div class="cart-item" data-price="78.99">
+        <img src="assets/Layout/alibaba/Image/cloth/image 24.png" alt="T-shirt" />
+        <div>
+          <div class="pname">T-shirts with multiple colors, for men and lady</div>
+          <div class="meta">Size: medium, Color: blue, Material: Plastic<br/>Seller: Artel Market</div>
+          <div class="actions">
+            <span class="remove" data-remove-item>Remove</span>
+            <span class="save" data-save-later>Save for later</span>
+          </div>
+        </div>
+        <div class="qty-control">
+          <button class="qty-minus">&minus;</button>
+          <input type="text" value="9" />
+          <button class="qty-plus">+</button>
+        </div>
+        <div class="line-price">$78.99</div>
+      </div>
+
+      <div class="cart-item" data-price="39.00">
+        <img src="assets/Layout/alibaba/Image/cloth/image 26.png" alt="T-shirt" />
+        <div>
+          <div class="pname">T-shirts with multiple colors, for men and lady</div>
+          <div class="meta">Size: medium, Color: blue, Material: Plastic<br/>Seller: Best factory LLC</div>
+          <div class="actions">
+            <span class="remove" data-remove-item>Remove</span>
+            <span class="save" data-save-later>Save for later</span>
+          </div>
+        </div>
+        <div class="qty-control">
+          <button class="qty-minus">&minus;</button>
+          <input type="text" value="3" />
+          <button class="qty-plus">+</button>
+        </div>
+        <div class="line-price">$39.00</div>
+      </div>
+
+      <div class="cart-item" data-price="170.50">
+        <img src="assets/Layout/alibaba/Image/cloth/image 30.png" alt="T-shirt" />
+        <div>
+          <div class="pname">T-shirts with multiple colors, for men and lady</div>
+          <div class="meta">Size: medium, Color: blue, Material: Plastic<br/>Seller: Best factory LLC</div>
+          <div class="actions">
+            <span class="remove" data-remove-item>Remove</span>
+            <span class="save" data-save-later>Save for later</span>
+          </div>
+        </div>
+        <div class="qty-control">
+          <button class="qty-minus">&minus;</button>
+          <input type="text" value="1" />
+          <button class="qty-plus">+</button>
+        </div>
+        <div class="line-price">$170.50</div>
+      </div>
+
+      <div class="cart-actions-row">
+        <a href="category.html" class="btn btn-outline">&larr; Back to shop</a>
+        <span class="clear-all" data-remove-all>Remove all</span>
+      </div>
+
+      <div class="empty-cart" style="display:none;">
+        <div class="icon">&#128722;</div>
+        <h3>Your cart is empty</h3>
+        <p style="color:var(--color-muted);margin:8px 0 16px;">Looks like you haven't added anything yet.</p>
+        <a href="category.html" class="btn btn-primary">Start shopping</a>
+      </div>
+
+      <div class="trust-row">
+        <div><div class="icon">&#128274;</div><h5>Secure payment</h5><p>Have you ever finally just</p></div>
+        <div><div class="icon">&#128172;</div><h5>Customer support</h5><p>Have you ever finally just</p></div>
+        <div><div class="icon">&#128666;</div><h5>Free delivery</h5><p>Have you ever finally just</p></div>
+      </div>
+
+      <h3 style="margin-bottom:16px;">Saved for later</h3>
+      <div class="saved-grid">
+        <div class="saved-card">
+          <img src="assets/Image/tech/8.png" alt="Phone" />
+          <div class="price">$99.50</div>
+          <div class="pname">GoPro HERO6 4K Action Camera - Black</div>
+          <button class="btn btn-outline btn-block" data-add-to-cart>Move to cart</button>
+        </div>
+        <div class="saved-card">
+          <img src="assets/Image/tech/image 33.png" alt="Phone" />
+          <div class="price">$99.50</div>
+          <div class="pname">GoPro HERO6 4K Action Camera - Black</div>
+          <button class="btn btn-outline btn-block" data-add-to-cart>Move to cart</button>
+        </div>
+        <div class="saved-card">
+          <img src="assets/Image/tech/image 23.png" alt="Watch" />
+          <div class="price">$99.50</div>
+          <div class="pname">GoPro HERO6 4K Action Camera - Black</div>
+          <button class="btn btn-outline btn-block" data-add-to-cart>Move to cart</button>
+        </div>
+        <div class="saved-card">
+          <img src="assets/Image/tech/image 34.png" alt="Laptop" />
+          <div class="price">$99.50</div>
+          <div class="pname">GoPro HERO6 4K Action Camera - Black</div>
+          <button class="btn btn-outline btn-block" data-add-to-cart>Move to cart</button>
+        </div>
+      </div>
+
+      <div class="cta-banner" style="margin-top:30px;">
+        <div>
+          <h4>Super discount on more than 100 USD</h4>
+          <p>Have you ever finally just write dummy info</p>
+        </div>
+        <a href="category.html" class="btn btn-accent">Shop now</a>
+      </div>
+    </div>
+
+    <!-- ===== Order summary ===== -->
+    <div class="summary-card">
+      <h3 style="margin-bottom:16px;">Order summary</h3>
+      <p style="font-size:13px;margin-bottom:8px;">Have a coupon?</p>
+      <div class="coupon-row">
+        <input type="text" placeholder="Add coupon" />
+        <button class="btn btn-outline">Apply</button>
+      </div>
+      <div class="summary-row"><span>Subtotal:</span><span data-subtotal>$1403.97</span></div>
+      <div class="summary-row"><span>Discount:</span><span class="discount" data-discount>-$60.00</span></div>
+      <div class="summary-row"><span>Tax:</span><span data-tax>+$14.00</span></div>
+      <div class="summary-row total"><span>Total:</span><span data-total>$1357.97</span></div>
+      <button class="btn btn-success btn-block" style="margin-top:14px;" onclick="showToast('Proceeding to checkout...')">Checkout</button>
+      <div class="pay-icons">&#128179; &#128181; &#127991;&#65039; &#127991;&#65039;</div>
+    </div>
+  </div>
+
+</main>
+
+<section class="newsletter">
+  <h3>Subscribe on our newsletter</h3>
+  <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+  <form>
+    <input type="email" placeholder="Email" required />
+    <button type="submit" class="btn btn-primary">Subscribe</button>
+  </form>
+  <div class="msg"></div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="assets/Layout/Brand/logo-colored.png" alt="logo" />Brand</a>
+        <p>Best information about the company gies here but now lorem ipsum is.</p>
+        <div class="social-icons">
+          <a href="#">f</a><a href="#">t</a><a href="#">in</a><a href="#">ig</a><a href="#">yt</a>
+        </div>
+      </div>
+      <div><h4>About</h4><ul>
+        <li><a href="#">About Us</a></li><li><a href="#">Find store</a></li>
+        <li><a href="category.html">Categories</a></li><li><a href="#">Blogs</a></li>
+      </ul></div>
+      <div><h4>Partnership</h4><ul>
+        <li><a href="#">About Us</a></li><li><a href="#">Find store</a></li>
+        <li><a href="category.html">Categories</a></li><li><a href="#">Blogs</a></li>
+      </ul></div>
+      <div><h4>Information</h4><ul>
+        <li><a href="#">Help Center</a></li><li><a href="#">Money Refund</a></li>
+        <li><a href="#">Shipping</a></li><li><a href="#">Contact us</a></li>
+      </ul></div>
+      <div><h4>For users</h4><ul>
+        <li><a href="#">Login</a></li><li><a href="#">Register</a></li>
+        <li><a href="#">Settings</a></li><li><a href="cart.html">My Orders</a></li>
+      </ul></div>
+      <div><h4>Get app</h4>
+        <div class="store-badges">
+          <img src="assets/Layout/Misc/market-button.png" alt="App store" />
+          <img src="assets/Layout/Misc/market-button.png" alt="Google play" />
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2023 Ecommerce.</span>
+      <span>English &#9662;</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

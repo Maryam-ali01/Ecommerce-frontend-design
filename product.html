@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Brand | Product Details</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="container">
+    <span>Help Center</span>
+    <span>Track Order</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-main">
+    <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a href="index.html" class="logo">
+      <img src="assets/Layout/Brand/logo-colored.png" alt="Brand logo" />
+      Brand
+    </a>
+    <form class="search-bar" onsubmit="return false;">
+      <select>
+        <option>All category</option>
+        <option>Electronics</option>
+        <option>Clothing</option>
+        <option>Home &amp; Interior</option>
+      </select>
+      <input type="text" placeholder="Search products, suppliers..." />
+      <button type="submit">Search</button>
+    </form>
+    <div class="header-icons">
+      <a href="#"><span class="icon-emoji">&#128100;</span>Profile</a>
+      <a href="#"><span class="icon-emoji">&#128172;</span>Message</a>
+      <a href="#"><span class="icon-emoji">&#9825;</span>Orders</a>
+      <a href="cart.html"><span class="icon-emoji">&#128722;</span>My cart
+        <span class="badge cart-badge">3</span>
+      </a>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <div class="container">
+      <div class="nav-all-cat">&#9776; All category</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Hot offers</a></li>
+        <li><a href="category.html">Gift boxes</a></li>
+        <li><a href="category.html">Projects</a></li>
+        <li><a href="category.html">Menu item</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <div class="ship-to">
+        English, USD &nbsp;|&nbsp; Ship to
+        <img src="assets/Layout1/Image/flags/US@2x.png" alt="US flag" />
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-nav-overlay"></div>
+<nav class="mobile-nav">
+  <button class="close-btn">&times; Close</button>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="category.html">Hot offers</a></li>
+    <li><a href="category.html">Gift boxes</a></li>
+    <li><a href="category.html">Categories</a></li>
+    <li><a href="product.html">Product details</a></li>
+    <li><a href="cart.html">My cart</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <div class="breadcrumb">
+    <a href="index.html">Home</a> &gt;
+    <a href="category.html">Clothings</a> &gt;
+    <a href="category.html">Men's wear</a> &gt;
+    <span>Summer clothing</span>
+  </div>
+
+  <div class="product-detail">
+
+    <!-- ===== Gallery ===== -->
+    <div>
+      <div class="gallery-main">
+        <img src="assets/Layout/alibaba/Image/cloth/image 24.png" alt="Mens long sleeve t-shirt" />
+      </div>
+      <div class="gallery-thumbs">
+        <img src="assets/Layout/alibaba/Image/cloth/image 24.png" class="active" alt="thumb1" />
+        <img src="assets/Layout/alibaba/Image/cloth/image 26.png" alt="thumb2" />
+        <img src="assets/Layout/alibaba/Image/cloth/image 30.png" alt="thumb3" />
+        <img src="assets/Layout/alibaba/Image/cloth/Bitmap.png" alt="thumb4" />
+        <img src="assets/Layout/alibaba/Image/cloth/Bitmap (2).png" alt="thumb5" />
+      </div>
+    </div>
+
+    <!-- ===== Info ===== -->
+    <div class="product-info">
+      <span class="stock-badge">&#10003; In stock</span>
+      <h1>Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h1>
+      <div class="rating-row">
+        <span>&#9733;&#9733;&#9733;&#9733;&#9734; 9.3</span>
+        <span>&#128172; 32 reviews</span>
+        <span>&#128229; 154 sold</span>
+      </div>
+
+      <table class="price-table">
+        <tr><th>Price</th><th>Negotiable</th></tr>
+        <tr><td class="price-val">$98.00</td><td>50-100 pcs</td></tr>
+        <tr><td class="price-val">$90.00</td><td>100-700 pcs</td></tr>
+        <tr><td class="price-val">$78.00</td><td>700+ pcs</td></tr>
+      </table>
+
+      <div class="spec-list">
+        <div><span>Type:</span><span>Classic shoes</span></div>
+        <div><span>Material:</span><span>Plastic material</span></div>
+        <div><span>Design:</span><span>Modern nice</span></div>
+        <div><span>Customization:</span><span>Customized logo and design custom packages</span></div>
+        <div><span>Protection:</span><span>Refund Policy</span></div>
+        <div><span>Warranty:</span><span>2 years full warranty</span></div>
+      </div>
+
+      <button class="btn btn-primary btn-block" data-add-to-cart>Add to cart</button>
+    </div>
+
+    <!-- ===== Supplier card ===== -->
+    <div class="supplier-card">
+      <div class="sname">Supplier</div>
+      <div class="scompany">Guanjoi Trading LLC</div>
+      <div class="stag">&#127465;&#127466; Germany, Berlin</div>
+      <div class="stag">&#10003; Verified Seller</div>
+      <div class="stag">&#127758; Worldwide shipping</div>
+      <button class="btn btn-primary btn-block">Send inquiry</button>
+      <button class="btn btn-outline btn-block">Seller's profile</button>
+      <p style="text-align:center;margin-top:10px;font-size:13px;color:var(--color-primary);cursor:pointer;">&#9825; Save for later</p>
+    </div>
+  </div>
+
+  <!-- ===== Tabs ===== -->
+  <div class="detail-grid">
+    <div>
+      <div class="tabs">
+        <button class="active" data-tab="tab-desc">Description</button>
+        <button data-tab="tab-reviews">Reviews</button>
+        <button data-tab="tab-shipping">Shipping</button>
+        <button data-tab="tab-about">About seller</button>
+      </div>
+
+      <div class="tab-panel active" id="tab-desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <table>
+          <tr><td>Model</td><td>#8786867</td></tr>
+          <tr><td>Style</td><td>Classic style</td></tr>
+          <tr><td>Certificate</td><td>ISO-898921212</td></tr>
+          <tr><td>Size</td><td>34mm x 450mm x 19mm</td></tr>
+          <tr><td>Memory</td><td>36GB RAM</td></tr>
+        </table>
+        <p style="margin-top:14px;">
+          <span class="feature-check">&#10003;</span>Some great feature name here<br/>
+          <span class="feature-check">&#10003;</span>Lorem ipsum dolor sit amet, consectetur<br/>
+          <span class="feature-check">&#10003;</span>Duis aute irure dolor in reprehenderit<br/>
+          <span class="feature-check">&#10003;</span>Some great feature name here
+        </p>
+      </div>
+
+      <div class="tab-panel" id="tab-reviews">
+        <p>32 reviews &middot; average rating 9.3/10. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Most buyers praised the build quality and fast shipping time from the supplier.</p>
+      </div>
+
+      <div class="tab-panel" id="tab-shipping">
+        <p>Free worldwide shipping on orders above 100 units. Estimated delivery: 7-15 business days depending on destination country. Express shipping available at checkout.</p>
+      </div>
+
+      <div class="tab-panel" id="tab-about">
+        <p>Guanjoi Trading LLC has been a verified seller on this marketplace since 2016, specializing in apparel and textile manufacturing with worldwide shipping coverage.</p>
+      </div>
+
+      <h3 style="margin:24px 0 6px;font-size:18px;">Related products</h3>
+      <div class="related-grid">
+        <a href="product.html" class="related-card"><img src="assets/Layout/alibaba/Image/cloth/Bitmap.png" alt="Wallet"/><div class="pname">Xiaomi Redmi 8 Original</div><div class="price">$32.00-$40.00</div></a>
+        <a href="product.html" class="related-card"><img src="assets/Image/tech/image 33.png" alt="Watch"/><div class="pname">Xiaomi Redmi 8 Original</div><div class="price">$32.00-$40.00</div></a>
+        <a href="product.html" class="related-card"><img src="assets/Image/tech/image 23.png" alt="Headphones"/><div class="pname">Xiaomi Redmi 8 Original</div><div class="price">$32.00-$40.00</div></a>
+        <a href="product.html" class="related-card"><img src="assets/Layout/alibaba/Image/cloth/image 30.png" alt="Jeans"/><div class="pname">Xiaomi Redmi 8 Original</div><div class="price">$32.00-$40.00</div></a>
+        <a href="product.html" class="related-card"><img src="assets/Image/interior/9.png" alt="Mug"/><div class="pname">Xiaomi Redmi 8 Original</div><div class="price">$32.00-$40.00</div></a>
+        <a href="product.html" class="related-card"><img src="assets/Layout/alibaba/Image/cloth/Bitmap (2).png" alt="Bag"/><div class="pname">Xiaomi Redmi 8 Original</div><div class="price">$32.00-$40.00</div></a>
+      </div>
+
+      <div class="cta-banner">
+        <div>
+          <h4>Super discount on more than 100 USD</h4>
+          <p>Have you ever finally just write dummy info</p>
+        </div>
+        <a href="category.html" class="btn btn-accent">Shop now</a>
+      </div>
+    </div>
+
+    <!-- ===== You may like ===== -->
+    <div>
+      <h3 style="margin-bottom:14px;font-size:16px;">You may like</h3>
+      <div class="you-may-like">
+        <a href="product.html" class="you-card"><img src="assets/Layout/alibaba/Image/cloth/image 30.png" alt="Blazer"/><div><div class="pname">Men Blazers Sets Elegant Formal</div><div class="price">$7.00 - $99.50</div></div></a>
+        <a href="product.html" class="you-card"><img src="assets/Layout/alibaba/Image/cloth/image 24.png" alt="Polo"/><div><div class="pname">Men Shirt Sleeve Polo Contrast</div><div class="price">$7.00 - $99.50</div></div></a>
+        <a href="product.html" class="you-card"><img src="assets/Image/tech/image 33.png" alt="Watch"/><div><div class="pname">Apple Watch Series Space Gray</div><div class="price">$7.00 - $99.50</div></div></a>
+        <a href="product.html" class="you-card"><img src="assets/Layout/alibaba/Image/cloth/Bitmap (2).png" alt="Socks"/><div><div class="pname">Basketball Crew Socks Long Stuff</div><div class="price">$7.00 - $99.50</div></div></a>
+        <a href="product.html" class="you-card"><img src="assets/Layout/alibaba/Image/cloth/image 26.png" alt="T-shirt"/><div><div class="pname">New Summer Men's castrol T-Shirts</div><div class="price">$7.00 - $99.50</div></div></a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<section class="newsletter">
+  <h3>Subscribe on our newsletter</h3>
+  <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+  <form>
+    <input type="email" placeholder="Email" required />
+    <button type="submit" class="btn btn-primary">Subscribe</button>
+  </form>
+  <div class="msg"></div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="assets/Layout/Brand/logo-colored.png" alt="logo" />Brand</a>
+        <p>Best information about the company gies here but now lorem ipsum is.</p>
+        <div class="social-icons">
+          <a href="#">f</a><a href="#">t</a><a href="#">in</a><a href="#">ig</a><a href="#">yt</a>
+        </div>
+      </div>
+      <div><h4>About</h4><ul>
+        <li><a href="#">About Us</a></li><li><a href="#">Find store</a></li>
+        <li><a href="category.html">Categories</a></li><li><a href="#">Blogs</a></li>
+      </ul></div>
+      <div><h4>Partnership</h4><ul>
+        <li><a href="#">About Us</a></li><li><a href="#">Find store</a></li>
+        <li><a href="category.html">Categories</a></li><li><a href="#">Blogs</a></li>
+      </ul></div>
+      <div><h4>Information</h4><ul>
+        <li><a href="#">Help Center</a></li><li><a href="#">Money Refund</a></li>
+        <li><a href="#">Shipping</a></li><li><a href="#">Contact us</a></li>
+      </ul></div>
+      <div><h4>For users</h4><ul>
+        <li><a href="#">Login</a></li><li><a href="#">Register</a></li>
+        <li><a href="#">Settings</a></li><li><a href="cart.html">My Orders</a></li>
+      </ul></div>
+      <div><h4>Get app</h4>
+        <div class="store-badges">
+          <img src="assets/Layout/Misc/market-button.png" alt="App store" />
+          <img src="assets/Layout/Misc/market-button.png" alt="Google play" />
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2023 Ecommerce.</span>
+      <span>English &#9662;</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
